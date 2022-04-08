@@ -35,3 +35,40 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.left-content {
+  padding: 1rem 3rem;
+}
+
+.profile {
+  width: 100%;
+  border-bottom: 1px solid rgb(74, 87, 112);
+}
+
+.profile img {
+  width: 100%;
+  border-radius: 50%;
+  border: 5px solid rgb(158, 155, 149) /* rgb(74, 87, 112)*/;
+}
+
+.name {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1.2rem 0;
+}
+
+.career {
+  font-size: 1.2rem;
+  color: rgb(188, 205, 231);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 1rem;
+}
+
+.main-title {
+  font-size: 1.8rem;
+}
