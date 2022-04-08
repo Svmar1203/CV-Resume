@@ -71,4 +71,23 @@ a {
 
 .main-title {
   font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(188, 205, 231);
+  padding-top: 2rem;
+}
+
+.contact-info ul {
+  padding: 2rem 0;
+}
+
+.contact-info ul li {
+  padding: 0.4rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info ul li i {
+  padding-right: 1rem;
+  font-size: 1.1rem;
 }
