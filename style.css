@@ -22,7 +22,7 @@ body {
 .left-section {
   grid-column: span 2;
   height: 100%;
-  background-color: rgb(86, 126, 163);
+  background-color: rgb(56, 100, 142);
 }
 
 .right-section {
@@ -33,7 +33,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #bcc6d4;
 }
 
 .left-content {
@@ -85,9 +85,11 @@ a {
   padding: 0.4rem 0;
   display: flex;
   align-items: center;
+  color: #bcc6d4;
 }
 
 .contact-info ul li i {
   padding-right: 1rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  color: #d0dbe9;
 }
