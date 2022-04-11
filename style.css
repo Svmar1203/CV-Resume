@@ -199,3 +199,40 @@ a {
 .sect {
   padding-bottom: 2rem;
 }
+
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.tl-title {
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  color: #1d3a5f;
+  text-transform: uppercase;
+}
+
+.tl-title-2 {
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  color: #486386;
+  text-transform: uppercase;
+}
+
+.tl-content {
+  border-left: 1px solid #ccc;
+  padding-left: 2rem;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.tl-title-2::before {
+  content: "";
+  position: absolute;
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: #558ada;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  left: 0cm;
+}
