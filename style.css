@@ -174,4 +174,24 @@ a {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #4c6386;
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+
+.right-title::after {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 0.2rem;
+  background-color: #4c6386;
+  right: 0;
+  top: 50%;
+  border-radius: 10px;
+  transform: translateY(-50%);
+}
+
+.para {
+  line-height: 1.6rem;
+  color: #58616d;
+  font-size: 1.1rem;
 }
