@@ -45,6 +45,11 @@ a {
   border-bottom: 1px solid rgb(74, 87, 112);
 }
 
+.image {
+  width: 100%;
+  text-align: center;
+}
+
 .profile img {
   width: 100%;
   border-radius: 50%;
@@ -236,3 +241,41 @@ a {
   transform: translateX(-50%);
   left: 0cm;
 }
+
+/*Media Querries*/
+@media screen and (max-width: 823px) {
+  .right-title::after {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 681px) {
+  .right-title::after {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .timeline {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .left-section {
+    grid-column: span 3;
+  }
+  .right-section {
+    grid-column: span 4;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+
+  .profile img {
+    width: 50%;
+  }
