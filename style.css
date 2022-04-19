@@ -112,7 +112,7 @@ a {
 .progress-bar {
   width: 100%;
   height: 0.4rem;
-  background-color: #49515a;
+  background-color: #798899;
   position: relative;
   border-radius: 12px;
 }
@@ -121,7 +121,7 @@ a {
   height: 100%;
   position: absolute;
   left: 0;
-  background-color: #0a2a58;
+  background-color: #604676;
   border-radius: 12px;
 }
 
